@@ -28,7 +28,7 @@ build:
     - $SHIPPABLE_BUILD_DIR/node_modules
 
 integrations:
-  notification:
+  notifications:
     - integrationName: slack_accolade
       type: slack
       recipients: 
